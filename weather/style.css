@@ -1,0 +1,71 @@
+.inline{
+	display: inline-block;
+}
+.input-group{
+	width: 360px;
+	height: 38px;
+}
+#title{
+	font-family: 'Frijole', sans-serif;
+	font-size: 64px;               
+	color: #18D483;
+	margin-top: 25px;     
+	width: 580px;
+	height: 103px;                           
+}
+#card{
+	width: 580px;
+	height: 536px;
+	background-color: #18D483;
+	font-family: 'fredoka one', sans-serif;
+	color: #FFFFFF;
+	border-radius: 30px;
+}
+input, a{
+	margin-top: 40px;
+	height: 45px;
+	text-decoration: none;
+}
+#head{
+	margin-top: 46px;
+}
+.up{
+	height: 42px;
+	width: 280px;
+}
+#city{
+	font-size: 32px;
+}
+#date{
+	font-size: 20px;
+}
+#description{
+	margin-top: 20px;
+}
+#description h1{
+	width: 380px;
+	height: 50px;
+	font-size: 48px;
+	text-align: center;
+}
+#description h2{
+	width: 380px;
+	height: 42px;
+	font-size: 32px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
