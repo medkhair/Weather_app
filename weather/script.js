@@ -14,8 +14,8 @@ async function change(){
 	const  data = await response.json();
 	document.getElementById("city").innerHTML = data.name;
 	document.getElementById("temp").innerHTML = data.main.temp + " °C";
-	document.getElementById("Hum").innerHTML = data.main.humidity + " %";
-	document.getElementById("win").innerHTML = data.wind.speed + " km/h";
+	document.getElementById("Hum").innerHTML = "Humidity : "+data.main.humidity + " %";
+	document.getElementById("win").innerHTML = "Wind : "+data.wind.speed + " km/h";
 	d = new Date();
 	date.innerHTML = d.getDate() + "/"+ (d.getMonth()+1)+"/"+ d.getFullYear()+" "+d.getHours()+":"+d.getMinutes();
 }
